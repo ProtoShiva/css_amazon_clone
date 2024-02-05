@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "normalFont";
+  src: url(./assets/pDxWAF1pBB0dzGB.ttf) format("truetype");
+}
+@font-face {
+  font-family: "boldFont";
+  src: url(./assets/KFPk-9IF4FqAqY-.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: normalFont;
+}
+
+.navBar {
+  display: flex;
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("./assets/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.addr-icon {
+  display: flex;
+  align-items: center;
+}
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.75rem;
+  margin-left: 15px;
+}
+
+.add-sec {
+  font-size: 0.9rem;
+  margin-left: 3px;
+  font-family: "boldFont";
+}
+
+/* .nav-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
