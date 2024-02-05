@@ -19,7 +19,7 @@
   height: 60px;
   background-color: #0f1111;
   color: white;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav-logo {
@@ -59,9 +59,9 @@
   font-family: "boldFont";
 }
 
-/* .nav-address {
+.nav-address {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-} */
+}
